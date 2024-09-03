@@ -84,7 +84,7 @@ jobs:
           java-version: '21'
 
       - name: Download weasis-native
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: weasis-native-${{ env.WEASIS_VERSION }}
           path: native-dist
